@@ -1,0 +1,767 @@
+BODY{
+	padding:0;
+	margin:0;
+}
+BODY TD {
+	font-size: 12px; 
+	COLOR: #000; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	COLOR: #cc0000;
+	text-decoration:none;
+}
+
+a:hover{
+	COLOR: #666;
+	text-decoration: underline;
+}
+
+#header{
+	height:20px;
+	padding:0 0 0 4px;
+	margin:0;
+}
+
+.mainLinkActive {
+	COLOR: #fff;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+	vertical-align: bottom;
+	text-align: center;
+	padding:4px 4 0 4;
+	width:16%;
+}
+.mainLinkActive td#left{
+	width:10px;
+	background-image: url(../images/mainTab_left.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.mainLinkActive td#right{
+	width:10px;
+	background-image: url(../images/mainTab_right.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.mainLinkActive td#mid{
+	background-repeat: repeat-x;
+	background-position: left top;
+	text-align: center;
+	vertical-align: middle;
+	height:22px;
+	background-color: #92231C;
+}
+
+.mainLinkActive a{
+	COLOR: #fff;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+	padding-right: 3px;
+	padding-left: 3px;
+	display:blcok;
+	width:100%;
+}
+.mainLinkActive a:hover{
+	COLOR: #fff;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.mainLink {
+	COLOR: #fff;
+	TEXT-DECORATION: none;
+	font-weight: bold;
+	vertical-align: bottom;
+	text-align: center;
+	padding:4px 4 0 4;
+	width:16%;
+}
+.mainLink td#left{
+	display:none;
+}
+.mainLink td#right{
+	display:none;
+}
+.mainLink td#mid{
+	text-align: center;
+	height:22px;
+}
+.mainLink a{
+	COLOR: #FFFFFF;
+	font-weight: bold;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-decoration: none;
+	display:blcok;
+	width:100%;
+}
+.mainLink a:hover{
+	COLOR: #FFFF00;
+	text-decoration: none;
+}
+
+.subLink{
+	padding:0 4px 0 4px;
+}
+.subLink a{	
+	COLOR: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+	width:100%;
+}
+.subLink #mid a:hover{	
+	COLOR: #ccc;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+.subLinkActive #left{
+	width:12px;
+	background-image: url(../images/tab_left_a.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #C15454;
+}
+.subLinkActive #right{
+	width:12px;
+	background-image: url(../images/tab_right_a.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #C15454;
+}
+.subLinkActive #mid{
+	background-image: url(../images/tab_bg_a.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #C15454;
+	text-align: center;
+	vertical-align: middle;
+	height:22px;
+}
+.subLinkActive #mid a{
+	COLOR: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+	width:100%;
+}
+.subLinkActive #mid a:hover{	
+	COLOR: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.navigation{	
+	padding-right: 3px;
+	padding-left: 3px;
+	height: 20px;
+}
+.navigation td{
+	font-weight:bold;
+}
+.navigation a{
+	font-weight:bold;
+	COLOR: #cc0000;
+	text-decoration: none;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.navigation a:hover{	
+	COLOR: #666;
+	text-decoration: underline;
+}
+input{
+	font-family:Verdana, Arial;
+	font-size:12px;	
+	color: #000;
+	vertical-align: middle;
+}
+.TextField{
+	font-family:Verdana, Arial;
+	font-size:12px;	
+	color: #000;
+	border: 1px solid #6A7580;
+	vertical-align: middle;
+}
+input.inputGreen{
+	font-family:Verdana, Arial;
+	font-size:11px;
+	color: #000;
+	font-weight:bold;
+	border: 1px solid #6A7580;
+	vertical-align: middle;
+	text-align:center;
+	background-color: #00CC00;
+	width:100%;
+}
+input.inputYellow{
+	font-family:Verdana, Arial;
+	font-size:11px;
+	color: #000;
+	font-weight:bold;
+	border: 1px solid #6A7580;
+	vertical-align: middle;
+	text-align:center;
+	background-color: #ffff00;
+	width:100%;
+}
+input.inputRed{
+	font-family:Verdana, Arial;
+	font-size:11px;
+	color: #000;
+	font-weight:bold;
+	border: 1px solid #6A7580;
+	vertical-align: middle;
+	text-align:center;
+	background-color: #ff5555;
+	width:100%;
+}
+
+button {
+	font-family:Verdana, Arial;
+	font-size:11px;
+	margin:2px 0 2px 0;	
+	padding: 2px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #fff;
+	background:#727272 url(../images/mainLnkBar_BG.gif) left bottom repeat-x;
+	border:#ccc solid 1px;
+	width:120px;
+	overflow:visible;
+	height:26px;
+}
+textarea{
+	font-family:Verdana, Arial;
+	font-size:12px;	
+	color: #000;
+	border: 1px solid #6A7580;
+	vertical-align: middle;
+}
+select {
+	font-family:Verdana, Arial;
+	font-size:12px;	
+	color: #000;
+	border: 1px solid #6A7580;
+	vertical-align: middle;
+}
+.heading {
+	FONT-SIZE: 12px;
+	COLOR: #92231C;
+	font-weight:bold;
+}
+
+.heading a{
+	
+	COLOR: #FF3300;
+	text-decoration: none;
+}
+
+.heading a:hover{
+	
+	COLOR: #003366;
+	text-decoration: none;
+}
+.subheading {
+	
+	COLOR: #7BA428;
+}
+
+.subheading a{
+	
+	COLOR: #684A28;
+	text-decoration: none;
+}
+
+.subheading a:hover{
+	
+	COLOR: #FF0000;
+	text-decoration: none;
+}
+.textFeildDisabled {
+	
+	color: #2D3135;
+	background-color: #EFEFEF;
+	border: 1px solid #D2D2D2;
+	vertical-align: middle;
+}
+.lnkBar {
+	height: 20px;
+	background:#727272 url(../images/mainLnkBar_BG.gif) left bottom repeat-x;
+}
+.sublnkBar {
+	height: 24px;
+	background-color: #92231C;
+	padding:6px 2 0 2;
+}
+.footerlnkBar, .footerlnkBar td{
+	height: 20px;
+	background-color: #817A74;
+	color:#fff;
+}
+
+#topMessageBar{
+	background-color: #EFEFEF;
+}
+.PageHeading {
+	FONT-SIZE: 13px;
+	COLOR: #fff;
+	font-weight: bold;
+	background-color: #666;
+	vertical-align: middle;
+	line-height: 20px;
+	padding:2px;
+}
+.PageHeading td{
+	FONT-SIZE: 12px;
+	COLOR: #FFFFFF;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.PageHeading a{
+	
+	COLOR: yellow;
+	font-weight: bold;
+	vertical-align: middle;
+	text-decoration:underline;
+}
+.PageHeading a:hover{
+	
+	COLOR: #fff;
+	font-weight: bold;
+	vertical-align: middle;
+	text-decoration:none;
+}
+
+.PageSubHeading {
+	FONT-SIZE: 12px;
+	COLOR: #333;
+	font-weight: bold;
+	/*background: #fff url(../images/headingBar_BG.gif) left middle repeat-x;*/
+	background: #fff url(../images/headingBar_BG.gif) left center repeat-x;
+	vertical-align: middle;
+	padding: 2px;
+	height: 24px;
+}
+.lblHeading{
+	COLOR: #000;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 18px;
+}
+.MainTable {
+	
+}
+td#contentTD{
+	border: 4px solid #666;
+	border-top-width:0px;
+}
+.PageSubSubHeading {
+	FONT-SIZE: 12px;
+	COLOR: #042F65;
+	font-weight: bold;
+	background-color: #DDDDDD;
+	vertical-align: middle;
+	padding: 2px;
+	height: 18px;
+}
+.SearchTable {
+	border:#C5C4C4 solid 0px;
+	
+}
+
+.pagingLnk{	
+	COLOR: #000;
+	font-size:12px;
+}
+.pagingLnk a{	
+	COLOR: #cc0000;
+	text-decoration: underline;
+	padding: 3px;
+}
+.pagingLnk a:hover{	
+	COLOR: #666;
+	text-decoration: none;
+	padding: 3px;
+}
+
+.pagingLnk a#active{
+	COLOR: #666;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+.pagingLnk a#active:hover{
+	COLOR: #666;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+
+Table.dataGridTable {
+	background-color: #FFFFFF;
+	border:#666666 solid 0px;
+	border-collapse:collapse;
+	margin:0px;
+	width:99%;
+}
+.dataGridTable TD{
+	border:1px solid #D1DADE;
+	font-size: 12px;
+}
+.dataGridTable TH{
+	border:1px solid #D1DADE;
+	font-size:12px;
+	color: #000;
+	font-weight: bold;
+	background:url(../images/bgPattern.gif) repeat-x bottom;
+	padding: 2px;
+	margin:0px;
+	vertical-align: middle;
+	height: 20px;
+	text-align:left;
+}
+td.dataGridHeader {	
+	color: #000;
+	font-weight: bold;
+	background:url(../images/bgPattern.gif) repeat-x bottom;
+	padding: 2px;
+	margin:0px;
+	vertical-align: middle;
+	height: 20px;
+}
+
+.dataGridTable TR.activeRow TD{
+	background-color:#D8DDE9;
+}
+.dataGridTable TR.altRow1{
+	background-color:#fff;
+}
+.dataGridTable TR.altRow2{
+	background-color:#F5F5F5;
+}
+.dataGridTable Table TD{
+	border:#fff solid 0px;
+	color:#000;
+}
+.dataGridTable textarea{	
+	color: #505861;
+	background-color: #FFFFFF;
+	border: 1px solid #6A7580;
+	width:100%;
+}
+.dataGridTable TABLE.subTable,.dataGridTable TABLE.subTable TD{
+	border:#F0FCFF solid 1px;
+	background-color:#fff;
+	font-size:9px;
+	padding:1px;
+}
+.dataGridTable .subTable TD.itemHead{
+	background-color:#E5E5E5;
+	color: #003399;
+	text-transform:uppercase;
+	font-size:9px;
+}
+
+.dataGridTable a{
+	COLOR: #cc0000;
+	text-decoration: none;
+	padding:3px;
+}
+
+.dataGridTable a:hover{
+	COLOR: #666;
+	text-decoration: underline;
+}
+
+.dataGridTable .btn{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#0066FF;
+	width:50px;
+	cursor: pointer;
+}
+
+
+table.formTable, table.formTable th{
+	border:#DBDBDB solid 1px;
+	border-collapse:collapse;
+	background:#F9F9F9;
+	text-align:right;
+	font-size:11px;
+}
+table.formTable, table.formTable td{
+	border:#DBDBDB solid 1px;
+	border-collapse:collapse;
+	background:#fff;
+	text-align:left;
+}
+table.formTable td table td{
+	border-width:0;
+	border-collapse:collapse;
+}
+.tabContainer{
+	padding:4px 2 0 2;
+}
+.tab_inactive #left{
+	width:5px;
+	background-image: url(../images/tab_left.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #fff;
+}
+.tab_inactive #right{
+	width:5px;
+	background-image: url(../images/tab_right.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #fff;
+}
+.tab_inactive #mid{
+	background-image: url(../images/tab_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	height:18px;
+}
+.tab_inactive #mid a{	
+	COLOR: #000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+.tab_inactive #mid a:hover{	
+	COLOR: #cc0000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+.tab_active #left{
+	width:5px;
+	background-image: url(../images/tab_left_a.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #C15454;
+}
+.tab_active #right{
+	width:5px;
+	background-image: url(../images/tab_right_a.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #C15454;
+}
+.tab_active #mid{
+	background-image: url(../images/tab_bg_a.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #C15454;
+	text-align: center;
+	vertical-align: middle;
+	height:22px;
+}
+.tab_active #mid a{
+	COLOR: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+.tab_active #mid a:hover{
+	
+	COLOR: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+#tabContents{
+	border:#C15454 solid 1px;
+	border-top:#C15454 solid 3px;
+	padding-top:1px;
+	padding-bottom:2px;
+}
+.subtab_inactive #left{
+	width:5px;
+	background-image: url(../images/subtab_left.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #E9EDFA;
+}
+.subtab_inactive #right{
+	width:5px;
+	background-image: url(../images/subtab_right.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #E9EDFA;
+}
+.subtab_inactive #mid{
+	background-image: url(../images/subtab_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #E9EDFA;
+	text-align: center;
+	vertical-align: middle;
+	height:20px;
+}
+.subtab_inactive #mid a{	
+	COLOR: #000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+	width:100%;
+}
+.subtab_inactive #mid a:hover{	
+	COLOR: #CC0000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.subtab_active #left{
+	width:5px;
+	background-image: url(../images/subtab_left_a.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #DF3800;
+}
+.subtab_active #right{
+	width:5px;
+	background-image: url(../images/subtab_right_a.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #DF3800;
+}
+.subtab_active #mid{
+	background-image: url(../images/subtab_bg_a.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #DF3800;
+	text-align: center;
+	vertical-align: middle;
+	height:20px;
+}
+
+.subtab_active #mid a{
+	FONT-SIZE: 12px;
+	COLOR: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+	width:100%;
+}
+.subtab_active #mid a:hover{
+	FONT-SIZE: 12px;
+	COLOR: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px;
+}
+a#logout{
+	background:url(../images/logout.png) left center no-repeat; 
+	padding-left:18px;
+	padding-right:2px;
+	height:15px;
+	line-height:15px;
+	vertical-align:middle;
+	text-decoration:none;
+}
+a#logout:hover{
+	background:url(../images/logout_red.png) no-repeat left center; 
+	padding-left:18px;
+	padding-right:2px;
+	height:15px;
+	line-height:15px;
+	vertical-align:middle;
+	text-decoration:none;
+}
+
+#leftMenu{
+	width:180px;
+	background-color:#EFEFEF;
+	border:#666 solid 4px;
+	border-right:none;
+}
+#leftMenu #leftMenuTable{
+	border-collapse: collapse;
+}
+#leftMenuTable .LefMenuHeading {
+	COLOR: #fff;
+	font-weight: bold;
+	background: #666;
+	vertical-align: middle;
+	text-align: left;
+	padding:0px;
+	padding-left:2px;
+	border-bottom:#666 solid 4px;
+	FONT-SIZE: 13px;
+	height:auto;
+}
+#leftMenuTable TD{
+	COLOR: #FFFFFF;
+	background-color: #ffffff;
+	vertical-align: middle;
+	text-align: left;
+	padding:0px;
+	margin:0px;
+	background:#888787 url(../images/lnkBar_BG.gif) left bottom repeat-x;
+	height:28px;
+}
+#leftMenuTable TD.activeLnk {
+	padding:0px;
+	margin:0px;
+	background:#FFFF97 url(../images/arrow_db_black_right.png) right center no-repeat;
+}
+#leftMenuTable TD.activeLnk  a{
+	display:block;
+	COLOR: #000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0 24px 0 6px;
+	vertical-align: middle;
+	width:100%;
+	text-align:left;
+}
+#leftMenuTable TD.activeLnk  a:hover{
+	text-decoration: none;
+	COLOR: #000;
+	background:transparent;
+	cursor:text;
+}
+
+#leftMenuTable TD  a{
+	display:block;
+	color: #fff;
+	padding:0 24px 0 6px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-weight: bold;
+	width:100%;
+}
+#leftMenuTable TD a:hover{
+	color: #ffff00;
+	text-decoration: underline;
+	background:#888787;
+}
+
+.error{
+	padding:4px 2 2 26;
+	height:20px;
+	background:url(../images/error_icon.png) left center no-repeat;
+	vertical-align:middle;
+	color:#ff0000;
+}
+
+.message{
+	padding:4px 2 2 26;
+	height:20px;
+	background:url(../images/message_icon.png) left center no-repeat;
+	vertical-align:middle;
+	color:#ff0000;
+}
